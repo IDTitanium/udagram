@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reverseproxy
+  labels:
+    app: udagram
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: udagram
+  template:
+    metadata:
+      labels:
+        app: udagram
+    spec:
+      containers:
+      - name: reverseproxy
+        image: idristheunique/reverseproxy:v1
+        ports:
+        - containerPort: 80
