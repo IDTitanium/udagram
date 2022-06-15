@@ -8,4 +8,4 @@ export AWS_BUCKET=my-827544408841-bucket
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=testing
-export URL=http://localhost:8100
+export URL=ace131d327cb64ae1aea6007118bf45b-1245643675.us-east-1.elb.amazonaws.com
