@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-api-feed
-        image: idristheunique/udagram-api-feed:v1
+        image: idristheunique/udagram-api-feed:v10
         ports:
         - containerPort: 8080
         envFrom:
