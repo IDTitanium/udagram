@@ -19,3 +19,6 @@ spec:
         image: idristheunique/udagram-frontend:v1
         ports:
         - containerPort: 8100
+        resources:
+          requests:
+            cpu: 400m

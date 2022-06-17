@@ -24,3 +24,6 @@ spec:
               name: env-secret
           - secretRef:
               name: aws-secret
+        resources:
+          requests:
+            cpu: 400m

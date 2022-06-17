@@ -19,3 +19,6 @@ spec:
         image: idristheunique/reverseproxy:v1
         ports:
         - containerPort: 80
+        resources:
+          requests:
+            cpu: 400m
